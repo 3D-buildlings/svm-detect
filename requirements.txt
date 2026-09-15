@@ -1,0 +1,14 @@
+# Skyscrapper MLOps pipeline - project dependencies.
+#
+# These are installed by the Airflow GitHub CI runner into the per-run
+# isolated virtual environment (<workspace>/.venv), never into Airflow's own
+# Python environment. Versions match the known-good reference environment.
+
+boto3==1.43.0
+joblib==1.5.3
+matplotlib==3.11.1
+mlflow==2.20.3
+numpy==1.26.4
+opencv-python-headless==4.10.0.84
+pandas==2.1.4
+scikit-learn==1.9.0
